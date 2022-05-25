@@ -10,7 +10,7 @@ import java.util.LinkedList;
 public class DemoCollectionsList {
 	public static void main(String[] args) {
 		DemoCollectionsList demoObj= new DemoCollectionsList();
-		//demoObj.arrayListMethod();
+		demoObj.arrayListMethod();
 		demoObj.arrayLinkListMethod();
 	}
 	public void arrayListMethod() {
@@ -21,6 +21,7 @@ public class DemoCollectionsList {
 		arrList.add("MJ");
 		arrList.add("Lebron");
 		arrList.add("James");
+		//arrList.remove("Fvec");
 		System.out.println("Array list before adding: "+arrList);
 		arrList.set(2, "Volt");
 		arrList.set(4, "Ray");
@@ -28,7 +29,7 @@ public class DemoCollectionsList {
 		for(int i=0;i<arrList.size();i++) {
 			System.out.println(arrList.get(i)+ " ");
 		}
-		arrList.remove(5);
+		arrList.remove(4);
 		System.out.println("Thorugh Iterator after Method: ");
 		Iterator<String> itrerate=arrList.iterator();  
 		while(itrerate.hasNext()){ 

@@ -13,7 +13,7 @@ public class ImplementInterfac implements StandardInterfac {
 
 	
 	public void numOfEmployee(int validNumber) {
-		System.out.println("Implemented Emp Strengthe");
+		System.out.println("Implemented Emp Strength");
 		empStrength= validNumber;
 		System.out.println(empStrength);
 
