@@ -4,7 +4,7 @@ public class HandleException {
 
 	public void arrayIndexOutOfBoundsHandling() {
 		try {
-			int arrayOne[]= new int [5];
+			int[] arrayOne = new int [5];
 			// Exception Occurs Here
 			arrayOne[6]= 15;
 			System.out.println("Try");

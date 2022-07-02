@@ -37,7 +37,7 @@ public class LoopsExample {
 
 		}
 		// Enhanced for loop example 
-		String strArray[]= {"Aswin","Ben","Cap","Test"};
+		String[] strArray = {"Aswin","Ben","Cap","Test"};
 		for(String val: strArray) {
 			System.out.println("String Array: "+val);
 		}
