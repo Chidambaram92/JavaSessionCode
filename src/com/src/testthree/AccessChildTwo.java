@@ -32,9 +32,9 @@ public class AccessChildTwo extends AccessBaseOne
 		objChildThree.testBlank();
 		System.out.println(objChildThree.testDataString());
 		
-//		AccessChildTwo objectFour = new AccessBaseOne();
+//		AccessChildTwo objectFive = new AccessBaseOne();
 //		objectFour.testBlank();
 //		System.out.println(objectFour.testDataString());
-		
+//
 	}
 }
