@@ -43,9 +43,9 @@ public class DataTypes {
 		System.out.println("Float data value is: "+floatValue);
 		System.out.println("Double data value is: "+doubValue);
 		System.out.println("Character data value is: "+charValue);
-		System.out.println("Character data value is: "+longValue);
-		System.out.println("Character data value is: "+typeCastValue);
-		
+		System.out.println("Long data value is: "+longValue);
+		System.out.println("Type cast data value is: "+typeCastValue);
+
 
 	}
 	//commonly use primitive data types
@@ -54,10 +54,12 @@ public class DataTypes {
 		String strOne= "FirstString";
 		String subStringOne= strOne.substring(0, 2);
 		System.out.println("String is: " +strOne+ " and split String is: "+subStringOne);
-		
+		String strTwo="TestData";
+		String subTwo=strTwo.substring(3);
+		System.out.println("String is: " +strTwo+ " and split String is: "+subTwo);
 		// String Split example
 		 String actualText="Test:Admin:Work";
-				 String splitText[]=actualText.split(":",3);
+				 String[] splitText =actualText.split(":",3);
 				 for(int i=0; i<splitText.length; i++) {
 					 System.out.println(splitText[i]);
 				 }
