@@ -16,7 +16,7 @@ public class ConstructorWorking {
 		this.name=n;
 		this.age=a;
 	}
-	public static void main(String args[]){
+	public static void main(String[] args){
 		ConstructorWorking obj1 = new ConstructorWorking();
 		ConstructorWorking obj2 = 
 				new ConstructorWorking("Ram", 56);
