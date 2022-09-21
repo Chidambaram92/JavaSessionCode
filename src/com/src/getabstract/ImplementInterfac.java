@@ -1,6 +1,6 @@
 package com.src.getabstract;
 
-public class ImplementInterfac implements StandardInterfac {
+public class ImplementInterfac implements StandardInterfac,TestInter {
 	int empStrength;
 	String comName;
 
@@ -29,5 +29,13 @@ public class ImplementInterfac implements StandardInterfac {
 	 obj.numOfEmployee(5000);
 	 System.out.println(obj.nameVal);
 	// obj.printValues();
+	 TestInter objTwo= new ImplementInterfac();
+	 objTwo.TestName("CGI");
 }
+
+	@Override
+	public void TestName(String validName) {
+		System.out.println("Implemented Test Name");
+		System.out.println(validName);
+	}
 }
