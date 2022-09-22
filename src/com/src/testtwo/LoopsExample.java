@@ -3,7 +3,7 @@ package com.src.testtwo;
 public class LoopsExample {
 	public static void main(String[] args) {
 		System.out.println("Inside Main Method");
-		switchMethod(3);		
+		switchMethod(1);
 
 	}
 // case statement
@@ -12,14 +12,17 @@ public class LoopsExample {
 
 		case 1:
 			forLoopCheck();
+			System.out.println("Inside Case 1 For Loop");
 			break;
 
 		case 2:
 			whileLoopCheck();
+			System.out.println("Inside Case 2 While Loop");
 			break;
 
 		case 3:
 			doWhileLoopCheck();
+			System.out.println("Inside Case 3 DO While Loop");
 			break;
 		default:
 			System.out.println("Invalid Break");
