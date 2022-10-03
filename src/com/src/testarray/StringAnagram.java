@@ -7,6 +7,8 @@ public class StringAnagram {
       StringAnagram objOne= new StringAnagram();
     if(objOne.verifyIfAnagaram()){
         System.out.println("The two strings are anagrams");
+    }else{
+        System.out.println("The two strings are not anagrams");
     }
   }
   private boolean verifyIfAnagaram(){
@@ -26,7 +28,7 @@ public class StringAnagram {
       }
       }
       return checkValue;
-
+  // care ,race
 
   }
 }

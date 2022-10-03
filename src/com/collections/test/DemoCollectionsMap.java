@@ -11,22 +11,23 @@ public class DemoCollectionsMap {
 		hMap.put(10,"Dev");
 		hMap.put(38,"Shaw");
 		hMap.put(24,"Joe");
-		
 		Set<Integer>arrSet= hMap.keySet();
 		
 		 for(int arrSetsElement:arrSet) {
 			 System.out.println("After fetch value of Key " +arrSetsElement+" is:" +hMap.get(arrSetsElement) );
 	
 		 }
+		hMap.get(24);
 		 exampleTreeMap(hMap);
 	}
 	private static void exampleTreeMap(HashMap <Integer, String> passMap) {
 		System.out.println("Tree Map method");
 		TreeMap<Integer, String>hMap= new TreeMap<Integer,String >();
 		hMap.put(5,"Ajith");
+		hMap.put(38,"Joe");
 		hMap.put(10,"Dev");
-		hMap.put(38,"Shaw");
-		hMap.put(24,"Joe");
+		hMap.put(24,"Key");
+		hMap.put(35,"Joe");
 		
 				Set<Integer>arrSet= hMap.keySet();
 		 for(int arrSetsElement:arrSet) {

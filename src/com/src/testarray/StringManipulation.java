@@ -27,7 +27,9 @@ public class StringManipulation {
      for(String sVal:arrList){
          System.out.println(sVal);
      }
- }
-
-
+    // \w	Matches the word characters.
+    // \W	Matches the nonword characters.
+    // \s	Matches the whitespace. Equivalent to [\t\n\r\f].
+    // \S	Matches the nonwhitespace.
+  }
 }

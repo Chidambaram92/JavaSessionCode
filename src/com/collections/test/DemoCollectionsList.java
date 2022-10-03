@@ -1,9 +1,6 @@
 package com.collections.test;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.*;
 
 // Array List-->implements-->List (Interface)-->extends-->Collection
 
@@ -20,6 +17,7 @@ public class DemoCollectionsList {
 		arrList.add("Fvec");
 		arrList.add("MJ");
 		arrList.add("Lebron");
+		arrList.add(5,"Denver");
 		arrList.add("James");
 		//arrList.remove("Fvec");
 		System.out.println("Array list before adding: "+arrList);
@@ -58,7 +56,14 @@ public class DemoCollectionsList {
 		System.out.println("Add all conecpt");
 		System.out.println(arrLinkList);
 	}
-	private void testArrayList() {
-	
+	private void testLinkedList() {
+	List<Character> charList= new LinkedList<>();
+	charList.add('T');
+	charList.add('R');
+	charList.add('S');
+	charList.add('A');
+		for(int i=0;i<charList.size();i++) {
+			System.out.println(charList.get(i)+ " ");
+		}
 	}
 }

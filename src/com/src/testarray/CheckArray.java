@@ -1,5 +1,7 @@
 package com.src.testarray;
 
+import java.util.Arrays;
+
 public class CheckArray {
 	public static void main(String[] args){
 		int[] arr ={2,11,45,9};
@@ -30,5 +32,10 @@ public class CheckArray {
 		
 		for(String val:stringArray)
 			System.out.print(val + " ");
+    Arrays.sort(stringArray);
+		System.out.println("\n After sorting string array as below: ");
+		for(String test:stringArray)
+			System.out.println(test + " ");
 	}
+
 }
