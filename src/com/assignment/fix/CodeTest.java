@@ -1,4 +1,4 @@
-package com.collections.test;
+package com.assignment.fix;
 
 import java.util.Arrays;
 
@@ -10,7 +10,7 @@ public class CodeTest {
       for(char c:charArray){
           System.out.println(c);
       }
-  //    System.out.println(Arrays.toString(charArray));
+     System.out.println(Arrays.toString(charArray));
   }
     public static void multipleCatchBlocks() {
         try{
