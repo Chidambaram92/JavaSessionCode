@@ -9,11 +9,10 @@ public class StringAndIntCombined {
          char extractValue=charArray[i];
           System.out.println("Extracted value: "+extractValue);
          charArray[i]= Character.toUpperCase(charArray[i]);
-System.out.println("After conversion: " +new String(charArray));
-          palindromeTest(strOne);
-          palindromeTest("teet");
       }
-
+      System.out.println("After conversion: " +new String(charArray));
+      palindromeTest(strOne);
+      palindromeTest("teet");
   }
     private static void palindromeTest(String strValue){
       String reverseValue="";
