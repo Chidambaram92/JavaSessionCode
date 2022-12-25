@@ -46,6 +46,7 @@ public class PrintDupilcateNumberArray {
                 }
             }
         }
+       // Arrays.sort(arrayOne);
         System.out.println("After Sorting Integer array as below: ");
         for(int k=0; k<arrayOne.length;k++){
             System.out.print(arrayOne[k]+" ");

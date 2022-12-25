@@ -25,5 +25,10 @@ public class StreamsPractise {
      System.out.println("Maximum value is: "+maxValue);
      int minValue=listValueOne.stream().min(Comparator.comparing(Integer::valueOf)).get();
       System.out.println("Minimum value is: "+minValue);
+
+//      List<Integer> sortedList = unsorted.stream().map(Integer::parseInt).sorted().collect(Collectors.toList());
+//      sortedList.forEach(System.out::println);
+//      Integer max = Collections.max(sortedList);
+//      System.out.println("Maximum price from the product list is: "+max);
   }
 }
