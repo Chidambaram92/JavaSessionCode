@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class CodeTest {
   public static void main(String[] args) {
-     // multipleCatchBlocks();
+      multipleCatchBlocks();
       char[] charArray = {'e', 'b', 'c', 'a', 'd'};
       Arrays.sort(charArray);
       for(char c:charArray){

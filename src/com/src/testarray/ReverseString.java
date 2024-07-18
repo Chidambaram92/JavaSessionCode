@@ -14,7 +14,7 @@ public class ReverseString
      String reversedString=reversedString();
      System.out.println("Reversal: "+reversedString);
       reversalStringWithSpace();
-      reversalStringWithSpaceCollections();
+      //reversalStringWithSpaceCollections();
   }
   public static String reversedString(){
       int lengthValue=actualString.length();

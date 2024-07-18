@@ -3,7 +3,7 @@ package com.src.testarray;
 public class StringAndIntCombined {
   public static void main(String[] args) {
     // String declaration
-      String strOne="stadium";
+      String strOne="stadiumfill";
       char[]charArray=strOne.toCharArray();
       for(int i=2;i<charArray.length;i+=3){
          char extractValue=charArray[i];

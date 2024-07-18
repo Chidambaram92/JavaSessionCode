@@ -30,6 +30,7 @@ public class PrintDuplicateString
         for(Map.Entry<String, Integer>stVal:entrySet) {
             if(stVal.getValue()>1) {
                 System.out.printf("%s : %d %n", stVal.getKey(), stVal.getValue());
+                //System.out.print(stVal.getKey()+""+stVal.getValue());
             }
         }
     }
