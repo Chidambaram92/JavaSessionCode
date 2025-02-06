@@ -11,6 +11,7 @@ public class CodeTest {
           System.out.println(c);
       }
      System.out.println(Arrays.toString(charArray));
+      System.out.println(new String(charArray));
   }
     public static void multipleCatchBlocks() {
         try{

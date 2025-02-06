@@ -5,20 +5,25 @@ public class StringAndIntCombined {
     // String declaration
       String strOne="stadiumfill";
       char[]charArray=strOne.toCharArray();
+      System.out.println("Actual String: " +new String(charArray));
+      /*for (int j = 0; j<charArray.length; j++){
+          char outputValue=charArray[j];
+          System.out.println("Original value " +outputValue);
+      }*/
       for(int i=2;i<charArray.length;i+=3){
          char extractValue=charArray[i];
           System.out.println("Extracted value: "+extractValue);
          charArray[i]= Character.toUpperCase(charArray[i]);
       }
-      System.out.println("After conversion: " +new String(charArray));
+      System.out.println("Modified String: " +new String(charArray));
       palindromeTest(strOne);
       palindromeTest("teet");
   }
     private static void palindromeTest(String strValue){
       String reverseValue="";
      for(int i=strValue.length()-1;i>=0;i--){
-         reverseValue=reverseValue.concat(String.valueOf(strValue.charAt(i)));
-       //  reverseValue=reverseValue+strValue.charAt(i);
+        // reverseValue=reverseValue.concat(String.valueOf(strValue.charAt(i)));
+         reverseValue=reverseValue+strValue.charAt(i);
      }
         System.out.println("Reverse Value for String: " +strValue+ " is - " +reverseValue);
         if(reverseValue.equalsIgnoreCase(strValue)){
