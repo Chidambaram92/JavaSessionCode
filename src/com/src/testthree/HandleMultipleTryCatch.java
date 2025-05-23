@@ -25,7 +25,7 @@ public class HandleMultipleTryCatch {
 			System.out.println("Finally Executed");
 		}
 		// Call another method
-		multipleCatchBlocks();
+	//	multipleCatchBlocks();
 	}  
 
 	public static void multipleCatchBlocks() {

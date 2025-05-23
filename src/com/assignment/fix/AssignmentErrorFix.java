@@ -4,7 +4,9 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class AssignmentErrorFix {
+  static String expectValue="abcghfjkfd";
   public static void main(String[] args) {
+
     HashMap<Integer,String> hMap= new HashMap<>();
       hMap.put(8,"java");
       hMap.put(5,"matlab");
@@ -22,5 +24,16 @@ public class AssignmentErrorFix {
         char c= actualString.charAt(i);
         System.out.println(c);
       }
+      String actValue=returnAppendedValue(expectValue);
+      System.out.println("Returned value"+actValue);
+  }
+  public static String returnAppendedValue(String sentValue){
+    StringBuilder result= new StringBuilder();
+    char[]charArray=sentValue.toCharArray();
+    for(char c:charArray){
+      result=result.append(c).append(c);
+    }
+    sentValue=result.toString();
+    return sentValue;
   }
 }

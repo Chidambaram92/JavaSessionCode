@@ -2,6 +2,7 @@ package com.collections.test;
 
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.TreeSet;
 
 // Set is an Interface. Hash set tree set these implements set Interface
@@ -23,7 +24,6 @@ public class DemoCollectionsSet {
 	}
 	public static void hashTreeSetExample() {
 		TreeSet<String>hasSeTree= new TreeSet<String>();
-
 		hasSeTree.add("India");
 		hasSeTree.add("England");
 		hasSeTree.add("Pakistan");
