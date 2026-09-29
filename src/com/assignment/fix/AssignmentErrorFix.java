@@ -25,7 +25,7 @@ public class AssignmentErrorFix {
         System.out.println(c);
       }
       String actValue=returnAppendedValue(expectValue);
-      System.out.println("Returned value"+actValue);
+      System.out.println("Returned value: "+actValue);
   }
   public static String returnAppendedValue(String sentValue){
     StringBuilder result= new StringBuilder();

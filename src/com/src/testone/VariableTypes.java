@@ -32,7 +32,6 @@ public class VariableTypes {
 	// non static method cannot access static variables
 	public void enterValue() {
 		System.out.println(" Non static method");
-
 		// Instantiate Object and access instance variables
 		VariableTypes objTwo= new VariableTypes();
 		char charValue=objTwo.instantChar;

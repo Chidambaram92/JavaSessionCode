@@ -28,7 +28,8 @@ public class DemoCollectionsSet {
 		hasSeTree.add("England");
 		hasSeTree.add("Pakistan");
 		hasSeTree.add("New Zealand");
-		hasSeTree.add("Greece");  
+		hasSeTree.add("Greece");
+		hasSeTree.remove("Pakistan");
 		System.out.println("Tree Set Sorted in ascending order");
 		for(String stockVal:hasSeTree) {
 			System.out.println(stockVal);

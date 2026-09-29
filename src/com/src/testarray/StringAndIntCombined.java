@@ -14,6 +14,7 @@ public class StringAndIntCombined {
          char extractValue=charArray[i];
           System.out.println("Extracted value: "+extractValue);
          charArray[i]= Character.toUpperCase(charArray[i]);
+
       }
       System.out.println("Modified String: " +new String(charArray));
       palindromeTest(strOne);
